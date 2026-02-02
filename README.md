@@ -1,4 +1,4 @@
-# 🖐️ Gesture Mouse Control
+# GesturePoint
 
 A real-time hand gesture-based mouse control system using computer vision and MediaPipe. Control your computer's mouse cursor, click, drag, and right-click using only hand gestures captured through your webcam.
 
@@ -48,7 +48,7 @@ Move your hand in front of your webcam and control your computer entirely throug
 
 3. **Download the MediaPipe hand tracking model**
 ```bash
-   python download_model.py
+   python ./model/download_model.py
 ```
 
 ## 📖 Usage
@@ -57,7 +57,7 @@ Move your hand in front of your webcam and control your computer entirely throug
 
 Run the main script:
 ```bash
-python gesture_mouse_control.py
+python mouse_controller.py
 ```
 
 ### Keyboard Controls
